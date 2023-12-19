@@ -1,3 +1,4 @@
+//go:build darwin || freebsd || netbsd || openbsd || linux
 // +build darwin freebsd netbsd openbsd linux
 
 /*
@@ -20,8 +21,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/winfsp/cgofuse/examples/shared"
-	"github.com/winfsp/cgofuse/fuse"
+	"github.com/AmericanBinary/cgofuse/examples/shared"
+	"github.com/AmericanBinary/cgofuse/fuse"
 )
 
 func trace(vals ...interface{}) func(vals ...interface{}) {

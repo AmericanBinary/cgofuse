@@ -1,3 +1,4 @@
+//go:build netbsd
 // +build netbsd
 
 /*
@@ -17,7 +18,7 @@ package main
 import (
 	"syscall"
 
-	"github.com/winfsp/cgofuse/fuse"
+	"github.com/AmericanBinary/cgofuse/fuse"
 )
 
 func setuidgid() func() {
