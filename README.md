@@ -3,14 +3,14 @@
 </h1>
 
 <p align="center">
-    <a href="https://godoc.org/github.com/AmericanBinary/cgofuse/fuse">
-        <img src="https://godoc.org/github.com/AmericanBinary/cgofuse/fuse?status.svg"/>
+    <a href="https://godoc.org/github.com/americanbinary/cgofuse/fuse">
+        <img src="https://godoc.org/github.com/americanbinary/cgofuse/fuse?status.svg"/>
     </a>
 </p>
 
 Cgofuse is a cross-platform FUSE library for Go. It is supported on multiple platforms and can be ported to any platform that has a FUSE implementation. It has [cgo](https://golang.org/cmd/cgo/) and [!cgo](https://github.com/golang/go/wiki/WindowsDLLs) ("nocgo") variants depending on the platform.
 
-|       |Windows<br/>[![](https://img.shields.io/github/workflow/status/winfsp/cgofuse/test)](https://github.com/AmericanBinary/cgofuse/actions/workflows/test.yml)|macOS<br/>[![](https://img.shields.io/github/workflow/status/winfsp/cgofuse/test)](https://github.com/AmericanBinary/cgofuse/actions/workflows/test.yml)|Linux<br/>[![](https://img.shields.io/github/workflow/status/winfsp/cgofuse/test)](https://github.com/AmericanBinary/cgofuse/actions/workflows/test.yml)|FreeBSD<br/>[![no CI](https://img.shields.io/badge/build-none-lightgrey.svg)](https://cirrus-ci.com/github/billziss-gh/cgofuse)|NetBSD<sup>*</sup><br/>![no CI](https://img.shields.io/badge/build-none-lightgrey.svg)|OpenBSD<sup>*</sup><br/>![no CI](https://img.shields.io/badge/build-none-lightgrey.svg)|
+|       |Windows<br/>[![](https://img.shields.io/github/workflow/status/winfsp/cgofuse/test)](https://github.com/americanbinary/cgofuse/actions/workflows/test.yml)|macOS<br/>[![](https://img.shields.io/github/workflow/status/winfsp/cgofuse/test)](https://github.com/americanbinary/cgofuse/actions/workflows/test.yml)|Linux<br/>[![](https://img.shields.io/github/workflow/status/winfsp/cgofuse/test)](https://github.com/americanbinary/cgofuse/actions/workflows/test.yml)|FreeBSD<br/>[![no CI](https://img.shields.io/badge/build-none-lightgrey.svg)](https://cirrus-ci.com/github/billziss-gh/cgofuse)|NetBSD<sup>*</sup><br/>![no CI](https://img.shields.io/badge/build-none-lightgrey.svg)|OpenBSD<sup>*</sup><br/>![no CI](https://img.shields.io/badge/build-none-lightgrey.svg)|
 |:-----:|:------:|:------:|:------:|:------:|:------:|:------:|
 |  cgo  |&#x2713;|&#x2713;|&#x2713;|&#x2713;|&#x2713;|&#x2713;|
 | !cgo  |&#x2713;|        |        |        |        |        |
@@ -93,7 +93,7 @@ Cgofuse is a cross-platform FUSE library for Go. It is supported on multiple pla
 
 User mode file systems are expected to implement `fuse.FileSystemInterface`. To make implementation simpler a file system can embed ("inherit") a `fuse.FileSystemBase` which provides default implementations for all operations. To mount a file system one must instantiate a `fuse.FileSystemHost` using `fuse.NewFileSystemHost`.
 
-The full documentation is available at GoDoc.org: [package fuse](https://godoc.org/github.com/AmericanBinary/cgofuse/fuse)
+The full documentation is available at GoDoc.org: [package fuse](https://godoc.org/github.com/americanbinary/cgofuse/fuse)
 
 There are currently three example file systems:
 

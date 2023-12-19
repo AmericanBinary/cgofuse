@@ -8,7 +8,7 @@ pkg install -y fusefs-libs
 export GOPATH=/tmp/go
 mkdir -p /tmp/go/src/github.com/winfsp
 cp -R /tmp/repo/cgofuse /tmp/go/src/github.com/winfsp
-cd /tmp/go/src/github.com/AmericanBinary/cgofuse
+cd /tmp/go/src/github.com/americanbinary/cgofuse
 go build -v ./...
 go build -v ./examples/memfs
 go build -v ./examples/passthrough

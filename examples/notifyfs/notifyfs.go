@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/AmericanBinary/cgofuse/fuse"
+	"github.com/americanbinary/cgofuse/fuse"
 )
 
 type Notifyfs struct {

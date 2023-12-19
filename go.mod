@@ -1,3 +1,3 @@
-module github.com/AmericanBinary/cgofuse
+module github.com/americanbinary/cgofuse
 
 go 1.21

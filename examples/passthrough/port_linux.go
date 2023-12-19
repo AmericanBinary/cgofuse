@@ -18,7 +18,7 @@ package main
 import (
 	"syscall"
 
-	"github.com/AmericanBinary/cgofuse/fuse"
+	"github.com/americanbinary/cgofuse/fuse"
 )
 
 func setuidgid() func() {

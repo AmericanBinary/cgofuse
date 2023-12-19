@@ -3,7 +3,7 @@
 
 **v1.6.0**
 
-- Rename import path to `github.com/AmericanBinary/cgofuse`.
+- Rename import path to `github.com/americanbinary/cgofuse`.
 
 - Convert package to module.
 

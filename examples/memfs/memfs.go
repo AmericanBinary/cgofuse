@@ -18,8 +18,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/AmericanBinary/cgofuse/examples/shared"
-	"github.com/AmericanBinary/cgofuse/fuse"
+	"github.com/americanbinary/cgofuse/examples/shared"
+	"github.com/americanbinary/cgofuse/fuse"
 )
 
 func trace(vals ...interface{}) func(vals ...interface{}) {

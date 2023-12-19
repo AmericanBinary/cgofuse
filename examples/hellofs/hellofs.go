@@ -15,7 +15,7 @@ package main
 import (
 	"os"
 
-	"github.com/AmericanBinary/cgofuse/fuse"
+	"github.com/americanbinary/cgofuse/fuse"
 )
 
 const (
