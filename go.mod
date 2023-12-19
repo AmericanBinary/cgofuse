@@ -1,3 +1,3 @@
-module github.com/winfsp/cgofuse
+module github.com/AmericanBinary/cgofuse
 
-go 1.17
+go 1.21
