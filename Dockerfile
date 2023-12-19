@@ -3,7 +3,7 @@ FROM \
 
 MAINTAINER \
     Bill Zissimopoulos <billziss at navimatics.com>
-
+    Andrew McElroy <amcelroy at ambit.inc>
 # add 32-bit and 64-bit architectures and install 7zip
 RUN \
     dpkg --add-architecture i386 && \
